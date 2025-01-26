@@ -11,7 +11,7 @@ var weightInLbs = weightInKg * 2.20462;
 alert(
     "Name: " + nickname + 
     "\nHeight: " + feet + "’" + inches + "”" +
-    "\nWeight: " + weightInLbs.toFixed(2) + " lbs"
+    "\nWeight: " + weightInLbs + " lbs"
 );
 
 var firstName = prompt("Enter your first name:");
